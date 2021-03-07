@@ -1,0 +1,224 @@
+@font-face{
+    font-family: 'Lato-Regular';
+    src: url('../../fonts/Lato-Regular.ttf');
+  }
+
+  @font-face{
+    font-family: 'Lato-Bold';
+    src: url('../../fonts/Lato-Bold.ttf');
+  }
+
+  @font-face{
+    font-family: 'Lato-Light';
+    src: url('../../fonts/Lato-Light.ttf');
+  }
+
+body{    
+    margin:0;
+    padding:0;
+    font-family: 'Lato-Regular';  
+      
+}
+.header {  
+  position: relative;
+  width: 100%;  
+}
+.font-nav{
+    font-family: 'Lato-Regular'; 
+}
+
+.menu-bar{
+    background-image: linear-gradient(-90deg,  #00384d,#0c5a89, #00384d );
+    box-shadow: 1px 1px 1rem #000;
+    
+}
+.nav-link{
+    font-size: 18px;
+    margin: 3px;
+    color: #fff!important;
+    font-weight: 500;
+}
+.navbar-nav{
+    text-align: right;
+    margin-right: 20px;
+}
+.menu-bar .navbar-toggler {
+    padding-right: 20px;
+    outline: none!important;
+    border: none!important;
+}
+.navbar .fa {
+    color: #fff!important;
+    font-size: 26px;
+}
+.nav-link:hover{
+    font-weight: 400;
+    border-bottom: 1px solid #3ec0dd;
+}
+.navbar-brand img{
+    width: 225px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+@media only screen and (max-width: 1000px){
+   .nav-link:hover{
+     border-bottom:  none!important;  
+   }
+}
+/*--------------------- estilos inicio ----------------------------*/
+.inicio-padre {   
+  height: auto;
+  padding: 10px;
+  /*IMPORTANTE*/
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+}
+
+.inicio-hijo { 
+  padding: 10px;
+  margin: 10px;
+  /* background: red; */
+  width: 500px;
+  overflow: hidden;
+  text-align:center;
+
+}
+
+.inicio-hijo img{  
+  width: 30vw;
+  height: auto;
+}
+.img-tam{
+  width: 28vw;
+  height: auto;
+}
+.img-tam-logo{
+  width: 30vw;
+  height: auto;
+}
+@supports(object-fit: cover){
+  .inicio-hijo img{
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+  }
+}
+.inicio-hijo p{
+  font-family: 'Lato-Light';
+  color: #393939;
+  font-size: 1.5vw;
+ 
+}  
+.form-group{
+  font-family: 'Lato-Regular' !important; 
+}
+.texto{
+  font-size: 3vh !important;
+}
+.texto-form{
+  font-size: 4vh !important;
+}
+/*--------------------- estilos nosotros ----------------------------*/
+.padre {   
+  padding-bottom:  6rem;
+  /* background: yellow; */
+  height: auto;
+  /*IMPORTANTE*/
+  display : flex;
+  flex-direction : row ;
+  justify-content : space-around;
+  flex-flow : wrap;
+  align-items:center;
+}
+
+.hijo {
+  margin-top: 3rem;
+  margin-bottom:  1rem;   
+  width: 30rem;
+  
+  text-align:start;
+}
+
+.hijo-vision {
+  margin-top: 1rem;
+  margin-bottom:  1rem;   
+  width: 30rem;  
+  text-align:end;
+}
+
+ .hijo-titulo {
+  margin-top: 2rem;
+  padding: 0.5rem;
+  font-family: 'Lato-Bold';  
+  color: #2393a5;
+  
+} 
+
+.hijo-texto-vision {
+  padding: 0em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hijo img{
+  padding-top: 1rem;
+  width: 80vh;
+  height: auto; 
+}
+
+@supports(object-fit: cover){
+  .inicio-hijo img{
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+  }
+}
+
+/*------------------- FOOTER* ------------------------*/
+
+footer {
+    /* background: #16222A;
+    background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
+    background: linear-gradient(59deg, #3A6073, #16222A); */
+    color: white;
+    margin-top:100px;
+  }
+  
+  
+  .copy {
+    font-size: 12px;
+    padding: 10px;
+    border-top: 1px solid gray;
+  }
+  
+  .footer-middle {
+    padding-top: 2em;
+    color: gray;
+    font-family: 'Lato-Light';
+  }
+  
+.nav-link-button{
+  text-decoration:none !important;
+}
+  
+
+  
+  
+
+
+ 
+  
+
+  
